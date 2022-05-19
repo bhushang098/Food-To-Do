@@ -1,0 +1,15 @@
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Data\bin\Debug\net6.0\FoodToDo.Data.deps.json
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Data\bin\Debug\net6.0\FoodToDo.Data.dll
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Data\bin\Debug\net6.0\FoodToDo.Data.pdb
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Data\bin\Debug\net6.0\FoodToDo.Core.dll
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Data\bin\Debug\net6.0\FoodToDo.Core.pdb
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Data\obj\Debug\net6.0\FoodToDo.Data.csproj.AssemblyReference.cache
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Data\obj\Debug\net6.0\FoodToDo.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Data\obj\Debug\net6.0\FoodToDo.Data.AssemblyInfoInputs.cache
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Data\obj\Debug\net6.0\FoodToDo.Data.AssemblyInfo.cs
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Data\obj\Debug\net6.0\FoodToDo.Data.csproj.CoreCompileInputs.cache
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Data\obj\Debug\net6.0\FoodToDo.Data.csproj.CopyComplete
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Data\obj\Debug\net6.0\FoodToDo.Data.dll
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Data\obj\Debug\net6.0\refint\FoodToDo.Data.dll
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Data\obj\Debug\net6.0\FoodToDo.Data.pdb
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Data\obj\Debug\net6.0\ref\FoodToDo.Data.dll

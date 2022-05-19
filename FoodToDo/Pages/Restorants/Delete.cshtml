@@ -1,0 +1,15 @@
+﻿@page "{restorantId}"
+@model FoodToDo.Pages.Restorants.DeleteModel
+@{
+}
+
+<h2> Delete @Model.restorat.Name</h2>
+
+<div class="alert alert-danger">
+    do you really want to delete @Model.restorat.Name ?
+</div>
+
+<form method="post">
+    <button type="submit" class="btn btn-danger">Yes ! </button>
+</form>
+<span> <a asp-page="./List"class="btn btn-primary"> Cancle </a> </span>

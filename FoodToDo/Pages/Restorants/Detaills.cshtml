@@ -1,0 +1,34 @@
+﻿@page "{restorantID:int}"
+
+@model FoodToDo.Pages.Restorants.DetaillsModel
+@{
+}
+
+
+@if(Model.Message !=null)
+{
+    <div class="alert alert-info">
+        @Model.Message
+    </div>    
+}
+<h2>@Model.Restorant.Name</h2>
+
+<div>
+    Id : @Model.Restorant.Id
+</div>
+
+<div>
+    Name : @Model.Restorant.Name
+</div>
+
+<div>
+    Location : @Model.Restorant.Location
+</div>
+
+<div>
+    Cuisine : @Model.Restorant.cuisiine
+</div>
+
+<div>
+    <a asp-page="./List" class="btn btn-primary">All Restorants</a>
+</div>

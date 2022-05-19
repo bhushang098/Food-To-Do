@@ -1,0 +1,30 @@
+﻿@using FoodToDo.Core
+@model Restorant
+
+
+<div class="panel panel-default">
+
+    <div class="panel-heading">
+        <h2>@Model.Name</h2>
+    </div>
+
+    <div class="panel-body">
+        <div> Location : @Model.Location</div>
+        <div> Cuisine : @Model.cuisiine</div>
+    </div>
+
+    <div class="panel-footer">
+         <a class="btn btn-lg" asp-page="./Detaills" asp-route-restorantID="@Model.Id">
+                    <i class="glyphicon glyphicon-zoom-in"></i>
+                </a>
+
+                 <a class="btn btn-lg" asp-page="./Edit" asp-route-restorantID="@Model.Id">
+                    <i class="glyphicon glyphicon-edit"></i>
+                </a>
+
+                  <a class="btn btn-lg" asp-page="./Delete" asp-route-restorantID="@Model.Id">
+                    <i class="glyphicon glyphicon-trash"></i>
+                </a>
+    </div>
+</div>
+

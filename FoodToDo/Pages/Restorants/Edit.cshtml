@@ -1,0 +1,30 @@
+﻿@page "{restorantID:int?}"
+@model FoodToDo.Pages.Restorants.EditModel
+@{
+}
+<h2>Editing @Model.restorant.Name</h2>
+
+<form method="post">
+
+    <input type="hidden" asp-for="restorant.Id" />
+    <div class="form-group">
+        <label asp-for="restorant.Name"></label>
+        <input asp-for="restorant.Name" class="form-control" />
+        <span class="text-danger" asp-validation-for="restorant.Name"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="restorant.Location"></label>
+        <input asp-for="restorant.Location" class="form-control"/>
+        <span class="text-danger" asp-validation-for="restorant.Location"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="restorant.cuisiine"></label>
+        <select asp-items="@Model.cuisines" asp-for="restorant.cuisiine" class="form-control"></select>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary"> Save </button>
+    </div>
+</form>

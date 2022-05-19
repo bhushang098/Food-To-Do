@@ -1,0 +1,29 @@
+﻿@page
+@model FoodToDo.Pages.Restorants.ListModel
+@{
+}
+
+
+<h1>Restaurants</h1>
+
+
+<form class="form-inline" method="get">
+    <input class="form-control mr-sm-2" asp-for="SeartcTerm" type="search" placeholder="Search" aria-label="Search">
+    <span>
+        <button class="btn btn-primary">
+            <i class="glyphicon glyphicon-search"></i>
+        </button>
+    </span>
+
+</form>
+
+
+
+    @foreach (var res in Model.restorants)
+{
+    <partial name="_Summary" model="res"></partial>
+}
+
+
+
+<a asp-page="./Edit" class="btn btn-primary">Add New</a>
