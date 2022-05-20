@@ -7,9 +7,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-builder.Services.AddDbContext<FoodToDoContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("FoodToDoContext") ?? throw new InvalidOperationException("Connection string 'FoodToDoContext' not found.")));
-
 
 
 var connectionString = builder.Configuration.GetConnectionString("FoodToDoConnectionString");
@@ -19,9 +16,14 @@ builder.Services.AddDbContextPool<FoodToDoDbContext>(options =>
     options.UseSqlServer(connectionString);
 });
 
+// for aspnetcore3.0+
+builder.Services.AddControllers();
+
 builder.Services.AddScoped<IRestorantData, SqlRestorantData>();
 
-var app = builder.Build(); 
+builder.Services.AddLogging();
+
+var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -30,15 +32,28 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+else
+{
+    app.UseDeveloperExceptionPage();
+}
+
 
 app.UseHttpsRedirection();
-
-app.UseStaticFiles();
 
 app.UseRouting();
 
 app.UseAuthorization();
 
+app.UseEndpoints(e =>
+{
+    e.MapRazorPages();
+    e.MapControllers();
+});
+
 app.MapRazorPages();
+
+app.UseStaticFiles();
+
+app.UseCookiePolicy();
 
 app.Run();

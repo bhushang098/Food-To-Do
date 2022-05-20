@@ -1,0 +1,14 @@
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Core\bin\Release\net6.0\FoodToDo.Core.deps.json
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Core\bin\Release\net6.0\FoodToDo.Core.runtimeconfig.json
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Core\bin\Release\net6.0\FoodToDo.Core.dll
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Core\bin\Release\net6.0\FoodToDo.Core.pdb
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Core\obj\Release\net6.0\FoodToDo.Core.csproj.AssemblyReference.cache
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Core\obj\Release\net6.0\FoodToDo.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Core\obj\Release\net6.0\FoodToDo.Core.AssemblyInfoInputs.cache
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Core\obj\Release\net6.0\FoodToDo.Core.AssemblyInfo.cs
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Core\obj\Release\net6.0\FoodToDo.Core.csproj.CoreCompileInputs.cache
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Core\obj\Release\net6.0\FoodToDo.Core.dll
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Core\obj\Release\net6.0\refint\FoodToDo.Core.dll
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Core\obj\Release\net6.0\FoodToDo.Core.pdb
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Core\obj\Release\net6.0\FoodToDo.Core.genruntimeconfig.cache
+C:\Users\Bhushan\source\repos\FoodToDo\FoodToDo.Core\obj\Release\net6.0\ref\FoodToDo.Core.dll

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "D/HfW2pH4NRpNI5+s2zqJoLK0pcl3rtMcvQ2Nz7Lhqs=",
+  "Hash": "LW6Xcnxzc4qPvTe2hyw0S3xJS6XaOQYWwrU0AtP8c8Q=",
   "Source": "FoodToDo",
   "BasePath": "_content/FoodToDo",
   "Mode": "Default",
@@ -1069,6 +1069,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Bhushan\\source\\repos\\FoodToDo\\FoodToDo\\wwwroot\\mlogo.png",
+      "SourceId": "FoodToDo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bhushan\\source\\repos\\FoodToDo\\FoodToDo\\wwwroot\\",
+      "BasePath": "_content/FoodToDo",
+      "RelativePath": "mlogo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\mlogo.png"
     }
   ]
 }

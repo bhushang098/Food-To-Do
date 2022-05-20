@@ -25,4 +25,8 @@
     <ProjectReference Include="..\FoodToDo.Data\FoodToDo.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Api\" />
+  </ItemGroup>
+
 </Project>
